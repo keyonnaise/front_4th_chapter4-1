@@ -4,11 +4,6 @@
 
 프론트엔드 배포 파이프라인은 소스 코드가 사용자에게 도달하기까지의 자동화된 프로세스를 관리하는 핵심 인프라입니다. 작성된 글에서는 GitHub Actions, AWS S3, CloudFront를 활용하여 신뢰성 있고 효율적인 배포 환경을 구축하는 방법을 설명합니다.
 
-#### 사용된 예제 링크
-
-- [S3 버킷 웹사이트 앤드포인트](http://hanghae-4th-chapter4-1.s3-website.us-east-2.amazonaws.com/)
-- [CloudFrount 배포 도메인](http://d37y2isbeft2xm.cloudfront.net/)
-
 ### 1. GitHub Actions 워크플로우 구성
 
 GitHub Actions는 GitHub에서 제공하는 CI/CD 도구로, 코드 변경 사항이 발생할 때마다 자동으로 빌드, 테스트, 배포 등의 작업을 수행할 수 있습니다. 이를 통해 개발자는 코드 품질을 지속적으로 유지하며, 신뢰성 있는 배포를 수행할 수 있습니다.
